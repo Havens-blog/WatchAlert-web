@@ -35,7 +35,6 @@ export const Login = () => {
                 setAdminExists(res?.data === 'ok');
             } catch (error) {
                 console.error(error);
-                setServiceError(true)
                 setAdminExists(false);
             }
         };
